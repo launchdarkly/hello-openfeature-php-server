@@ -1,0 +1,18 @@
+{
+    "name": "launchdarkly/hello-openfeature-server",
+    "description": "Hello World example using the LaunchDarkly OpenFeature provider",
+    "type": "project",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.0",
+        "kevinrob/guzzle-cache-middleware": "4.*",
+        "launchdarkly/openfeature-server": "^0.1",
+        "open-feature/sdk": "^2.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/launchdarkly/openfeature-php-server"
+        }
+    ]
+}
