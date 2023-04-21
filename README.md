@@ -1,5 +1,7 @@
 # LaunchDarkly Sample OpenFeature PHP Server application
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/launchdarkly/hello-openfeature-php-server/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/launchdarkly/hello-openfeature-php-server/tree/main)
+
 We've built a simple console script that demonstrates how LaunchDarkly's OpenFeature provider works.
 
 ## Build instructions
