@@ -7,13 +7,16 @@ use OpenFeature\implementation\flags\EvaluationContext;
 require 'vendor/autoload.php';
 
 # Set $sdkKey to your LaunchDarkly SDK key before running
-$sdkKey = "";
+$sdkKey = getenv("LAUNCHDARKLY_SERVER_KEY");
 
 # Set $featureFlagFey to the feature flag key you want to evaluate
-$featureFlagKey = "my-boolean-flag";
+$featureFlagKey = getenv("LAUNCHDARKLY_FLAG_KEY");
 
 if (!$sdkKey) {
-  echo "*** Please edit index.php to set $sdkKey to your LaunchDarkly SDK key first\n\n";
+  echo "*** Please set LAUNCHDARKLY_SERVER_KEY env first\n\n";
+  exit(1);
+} else if (!$featureFlagKey) {
+  echo "*** Please set LAUNCHDARKLY_FLAG_KEY env first\n\n";
   exit(1);
 }
 
