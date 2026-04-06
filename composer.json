@@ -8,11 +8,5 @@
         "kevinrob/guzzle-cache-middleware": "4.*",
         "launchdarkly/openfeature-server": "^1.0",
         "open-feature/sdk": "^2.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/launchdarkly/openfeature-php-server"
-        }
-    ]
+    }
 }
