@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "require": {
         "php": ">=8.2",
-        "kevinrob/guzzle-cache-middleware": "^7.0",
+        "kevinrob/guzzle-cache-middleware": "^8.0",
         "launchdarkly/openfeature-server": "^2.0",
         "open-feature/sdk": "^2.0"
     }
